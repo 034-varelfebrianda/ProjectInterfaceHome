@@ -3,10 +3,10 @@ import { createRoot } from 'react-dom/client';
 import '../index.css';
 import Navbar from '../Components/Organism/Navbar';
 import Sidebar from '../Components/Organism/Sidebar';
-import MainContain from 't ad../Components/Organism/MainContain';
+import MainContain from '../Components/Organism/MainContain';
 import { componentsData } from '../Components/Atoms/componentsData';
 
-function Home() {
+export default function Home() {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('All Components');
 
